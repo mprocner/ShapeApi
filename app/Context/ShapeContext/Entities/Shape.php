@@ -6,10 +6,10 @@ declare(strict_types=1);
  * @author Mateusz Procner<mateusz.procner@gmail.com>
  * @copyright Copyright (C) 2019 Mateusz Procner
  */
-
 namespace App\Context\ShapeContext\Entities;
 
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\MorphTo;
 
 /**
  * Class Shape
@@ -17,5 +17,11 @@ use Illuminate\Database\Eloquent\Model;
  */
 class Shape extends Model
 {
-
+    /**
+     * @return MorphTo
+     */
+    public function figure(): MorphTo
+    {
+        return $this->morphTo();
+    }
 }

@@ -13,8 +13,10 @@ class CreateRectangleTable extends Migration
      */
     public function up()
     {
-        Schema::create('rectangle', function (Blueprint $table) {
+        Schema::create('rectangles', function (Blueprint $table) {
             $table->bigIncrements('id');
+            $table->float('a');
+            $table->float('b');
             $table->timestamps();
         });
     }
@@ -26,6 +28,6 @@ class CreateRectangleTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('rectangle');
+        Schema::dropIfExists('rectangles');
     }
 }

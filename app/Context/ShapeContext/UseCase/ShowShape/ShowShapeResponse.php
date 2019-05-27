@@ -9,7 +9,13 @@ declare(strict_types=1);
 
 namespace App\Context\ShapeContext\UseCase\ShowShape;
 
-class ShowShapeResponse
+use App\Context\ShapeContext\Contracts\AbstractResponse;
+
+/**
+ * Class ShowShapeResponse
+ * @package App\Context\ShapeContext\UseCase\ShowShape
+ */
+class ShowShapeResponse extends AbstractResponse
 {
 
 }

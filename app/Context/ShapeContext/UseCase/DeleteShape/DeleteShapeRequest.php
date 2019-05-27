@@ -9,7 +9,30 @@ declare(strict_types=1);
 
 namespace App\Context\ShapeContext\UseCase\DeleteShape;
 
-class DeleteShapeRequest
-{
+use App\Context\ShapeContext\Contracts\RequestInterface;
+use App\Context\ShapeContext\Entities\Shape;
 
+class DeleteShapeRequest implements RequestInterface
+{
+    /**
+     * @var Shape
+     */
+    private $shape;
+
+    /**
+     * DeleteShapeRequest constructor.
+     * @param Shape $shape
+     */
+    public function __construct(Shape $shape)
+    {
+        $this->shape = $shape;
+    }
+
+    /**
+     * @return Shape
+     */
+    public function getShape(): Shape
+    {
+        return $this->shape;
+    }
 }

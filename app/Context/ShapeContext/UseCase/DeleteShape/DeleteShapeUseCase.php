@@ -9,7 +9,39 @@ declare(strict_types=1);
 
 namespace App\Context\ShapeContext\UseCase\DeleteShape;
 
-class DeleteShapeUseCase
-{
+use App\Context\ShapeContext\Contracts\AbstractResponse;
+use App\Context\ShapeContext\Contracts\RequestInterface;
+use App\Context\ShapeContext\Contracts\ShapeRepositoryInterface;
+use App\Context\ShapeContext\Contracts\UseCaseInterface;
+use Exception;
 
+class DeleteShapeUseCase implements UseCaseInterface
+{
+    /**
+     * @var ShapeRepositoryInterface
+     */
+    private $shapeRepository;
+
+    /**
+     * DeleteShapeUseCase constructor.
+     * @param ShapeRepositoryInterface $shapeRepository
+     */
+    public function __construct(ShapeRepositoryInterface $shapeRepository)
+    {
+        $this->shapeRepository = $shapeRepository;
+    }
+
+    /**
+     * @param RequestInterface $request
+     * @return AbstractResponse
+     */
+    public function execute(RequestInterface $request): AbstractResponse
+    {
+        try {
+            $this->shapeRepository->deleteShape($request->getShape());
+            return new DeleteShapeResponse('Shape deleted successfully');
+        } catch (Exception $e) {
+            return new DeleteShapeResponse('Shape was not deleted');
+        }
+    }
 }

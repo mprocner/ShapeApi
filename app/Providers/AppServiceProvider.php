@@ -2,6 +2,8 @@
 
 namespace App\Providers;
 
+use App\Context\ShapeContext\Contracts\ShapeRepositoryInterface;
+use App\Context\ShapeContext\Repositories\ShapeRepository;
 use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider
@@ -13,7 +15,10 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+        $this->app->bind(
+            ShapeRepositoryInterface::class,
+            ShapeRepository::class
+        );
     }
 
     /**

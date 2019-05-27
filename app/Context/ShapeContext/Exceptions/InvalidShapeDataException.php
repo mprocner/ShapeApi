@@ -6,10 +6,10 @@ declare(strict_types=1);
  * @author Mateusz Procner<mateusz.procner@gmail.com>
  * @copyright Copyright (C) 2019 Mateusz Procner
  */
-
 namespace App\Context\ShapeContext\Exceptions;
 
-class InvalidShapeDataException
-{
+use Exception;
 
+class InvalidShapeDataException extends Exception
+{
 }

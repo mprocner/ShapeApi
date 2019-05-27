@@ -9,7 +9,10 @@ declare(strict_types=1);
 
 namespace App\Context\ShapeContext\Contracts;
 
-
+/**
+ * Interface RequestInterface
+ * @package App\Context\ShapeContext\Contracts
+ */
 interface RequestInterface
 {
 

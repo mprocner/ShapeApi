@@ -9,7 +9,14 @@ declare(strict_types=1);
 
 namespace App\Context\ShapeContext\UseCase\UpdateShape;
 
-class UpdateShapeResponse
+use App\Context\ShapeContext\Contracts\AbstractResponse;
+use App\Context\ShapeContext\Contracts\ResponseInterface;
+
+/**
+ * Class UpdateShapeResponse
+ * @package App\Context\ShapeContext\UseCase\UpdateShape
+ */
+class UpdateShapeResponse extends AbstractResponse
 {
 
 }

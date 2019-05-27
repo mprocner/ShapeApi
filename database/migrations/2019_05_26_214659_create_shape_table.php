@@ -13,8 +13,10 @@ class CreateShapeTable extends Migration
      */
     public function up()
     {
-        Schema::create('shape', function (Blueprint $table) {
+        Schema::create('shapes', function (Blueprint $table) {
             $table->bigIncrements('id');
+            $table->integer('figure_id');
+            $table->string('figure_type');
             $table->timestamps();
         });
     }
@@ -26,6 +28,6 @@ class CreateShapeTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('shape');
+        Schema::dropIfExists('shapes');
     }
 }

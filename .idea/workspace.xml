@@ -2,22 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16edbe4c-cc72-400c-828c-5c3acf732086" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Context/ShapeContext/Contracts/ShapeInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Context/ShapeContext/Entities/Shape.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Context/ShapeContext/Factories/ShapeFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Context/ShapeContext/Repositories/ShapeRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Context/ShapeContext/UseCase/CreateShape/CreateShapeRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Context/ShapeContext/UseCase/CreateShape/CreateShapeResponse.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Context/ShapeContext/UseCase/CreateShape/CreateShapeUseCase.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Requests/CreateShapeFormRequest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2019_05_26_214659_create_shape_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Context/ShapeContext/Contracts/AbstractResponse.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Context/ShapeContext/Contracts/AbstractResponse.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Context/ShapeContext/Contracts/RequestInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Context/ShapeContext/Contracts/RequestInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Context/ShapeContext/Contracts/ResponseInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Context/ShapeContext/Contracts/ResponseInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Context/ShapeContext/Contracts/ShapeInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Context/ShapeContext/Contracts/ShapeInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Context/ShapeContext/Contracts/ShapeRepositoryInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Context/ShapeContext/Contracts/ShapeRepositoryInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Context/ShapeContext/Contracts/UseCaseInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Context/ShapeContext/Contracts/UseCaseInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Context/ShapeContext/Entities/Disc.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Context/ShapeContext/Entities/Disc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Context/ShapeContext/Entities/Rectangle.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Context/ShapeContext/Entities/Rectangle.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Context/ShapeContext/Entities/Shape.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Context/ShapeContext/Entities/Shape.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Context/ShapeContext/Entities/Triangle.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Context/ShapeContext/Entities/Triangle.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Context/ShapeContext/Exceptions/InvalidShapeDataException.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Context/ShapeContext/Exceptions/InvalidShapeDataException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Context/ShapeContext/Exceptions/InvalidShapeTypeException.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Context/ShapeContext/Exceptions/InvalidShapeTypeException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Context/ShapeContext/Factories/ShapeFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Context/ShapeContext/Factories/ShapeFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Context/ShapeContext/Repositories/ShapeRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Context/ShapeContext/Repositories/ShapeRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Context/ShapeContext/ShapeDataValidator.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Context/ShapeContext/ShapeDataValidator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Context/ShapeContext/UseCase/CreateShape/CreateShapeRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Context/ShapeContext/UseCase/CreateShape/CreateShapeRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Context/ShapeContext/UseCase/CreateShape/CreateShapeResponse.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Context/ShapeContext/UseCase/CreateShape/CreateShapeResponse.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Context/ShapeContext/UseCase/CreateShape/CreateShapeUseCase.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Context/ShapeContext/UseCase/CreateShape/CreateShapeUseCase.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Context/ShapeContext/UseCase/DeleteShape/DeleteShapeRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Context/ShapeContext/UseCase/DeleteShape/DeleteShapeRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Context/ShapeContext/UseCase/DeleteShape/DeleteShapeResponse.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Context/ShapeContext/UseCase/DeleteShape/DeleteShapeResponse.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Context/ShapeContext/UseCase/DeleteShape/DeleteShapeUseCase.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Context/ShapeContext/UseCase/DeleteShape/DeleteShapeUseCase.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Context/ShapeContext/UseCase/ShowShape/ShowShapeRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Context/ShapeContext/UseCase/ShowShape/ShowShapeRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Context/ShapeContext/UseCase/ShowShape/ShowShapeResponse.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Context/ShapeContext/UseCase/ShowShape/ShowShapeResponse.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Context/ShapeContext/UseCase/ShowShape/ShowShapeUseCase.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Context/ShapeContext/UseCase/ShowShape/ShowShapeUseCase.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Context/ShapeContext/UseCase/UpdateShape/UpdateShapeRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Context/ShapeContext/UseCase/UpdateShape/UpdateShapeRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Context/ShapeContext/UseCase/UpdateShape/UpdateShapeResponse.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Context/ShapeContext/UseCase/UpdateShape/UpdateShapeResponse.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Context/ShapeContext/UseCase/UpdateShape/UpdateShapeUseCase.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Context/ShapeContext/UseCase/UpdateShape/UpdateShapeUseCase.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ShapeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ShapeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/ShapeFormRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/ShapeFormRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/UpdateShapeFormRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/UpdateShapeFormRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_05_26_214659_create_shape_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_05_26_214659_create_shape_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_05_27_083033_create_triangle_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_05_27_083033_create_triangle_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_05_27_083133_create_disc_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_05_27_083133_create_disc_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_05_27_083204_create_rectangle_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_05_27_083204_create_rectangle_table.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,94 +56,90 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Context/ShapeContext/UseCase/CreateShape/CreateShapeUseCase.php">
+        <entry file="file://$PROJECT_DIR$/app/Context/ShapeContext/UseCase/DeleteShape/DeleteShapeUseCase.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="572">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="318">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Context/ShapeContext/Factories/ShapeFactory.php">
+        <entry file="file://$PROJECT_DIR$/app/Context/ShapeContext/UseCase/ShowShape/ShowShapeUseCase.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="728">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="190">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Context/ShapeContext/UseCase/CreateShape/CreateShapeRequest.php">
+        <entry file="file://$PROJECT_DIR$/app/Context/ShapeContext/UseCase/UpdateShape/UpdateShapeUseCase.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+            <state relative-caret-position="-408">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Context/ShapeContext/Contracts/ShapeInterface.php">
+        <entry file="file://$PROJECT_DIR$/.env">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+            <state relative-caret-position="234">
+              <caret line="9" selection-start-line="9" selection-end-line="12" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Context/ShapeContext/Entities/Shape.php">
+        <entry file="file://$PROJECT_DIR$/.env.example">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+            <state relative-caret-position="286">
+              <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+        <entry file="file://$PROJECT_DIR$/app/Providers/EventServiceProvider.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+            <state relative-caret-position="468">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
+              <folding>
+                <element signature="e#33#82#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/migrations/2019_05_26_214659_create_shape_table.php">
+        <entry file="file://$PROJECT_DIR$/app/Context/ShapeContext/Listeners/CalculateArea.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="16" column="40" lean-forward="true" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+            <state relative-caret-position="78">
+              <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Schema/Blueprint.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="590" column="20" selection-start-line="590" selection-start-column="20" selection-end-line="590" selection-end-column="20" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/app/Context/ShapeContext/Events/ShapeCreated.php">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/User.php">
+        <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Auth/Events/Registered.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="156">
-              <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+              <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Auth/User.php">
+        <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Auth/Listeners/SendEmailVerificationNotification.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-              <folding>
-                <element signature="e#46#82#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="156">
+              <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -135,6 +153,9 @@
       <find>dbg</find>
       <find>install_pyth</find>
       <find>ondrej</find>
+      <find>DATABA</find>
+      <find>fi</find>
+      <find>save</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/laradock</dir>
@@ -151,15 +172,48 @@
         <option value="$PROJECT_DIR$/laradock/workspace/xdebug.ini" />
         <option value="$PROJECT_DIR$/laradock/php-fpm/xdebug.ini" />
         <option value="$PROJECT_DIR$/laradock/.env" />
-        <option value="$PROJECT_DIR$/app/Context/ShapeContext/UseCase/CreateShape/CreateShapeResponse.php" />
         <option value="$PROJECT_DIR$/app/Http/Requests/CreateShapeRequest.php" />
-        <option value="$PROJECT_DIR$/app/Context/ShapeContext/UseCase/CreateShape/CreateShapeRequest.php" />
-        <option value="$PROJECT_DIR$/app/Http/Requests/CreateShapeFormRequest.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/ShapeController.php" />
-        <option value="$PROJECT_DIR$/app/Context/ShapeContext/UseCase/CreateShape/CreateShapeUseCase.php" />
-        <option value="$PROJECT_DIR$/app/Context/ShapeContext/Entities/Shape.php" />
-        <option value="$PROJECT_DIR$/app/Context/ShapeContext/Factories/ShapeFactory.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/app/Http/Requests/CreateShapeFormRequest.php" />
+        <option value="$PROJECT_DIR$/app/Http/Requests/ShapeFormRequest.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_05_27_083033_create_traingle_table.php" />
+        <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" />
+        <option value="$PROJECT_DIR$/app/Context/ShapeContext/Exceptions/InvalidShapeTypeException.php" />
+        <option value="$PROJECT_DIR$/app/Context/ShapeContext/Entities/Shape.php" />
+        <option value="$PROJECT_DIR$/app/Context/ShapeContext/Exceptions/InvalidShapeDataException.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_05_27_083033_create_triangle_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_05_27_083133_create_disc_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_05_27_083204_create_rectangle_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_05_26_214659_create_shape_table.php" />
+        <option value="$PROJECT_DIR$/app/Context/ShapeContext/Factories/ShapeFactory.php" />
+        <option value="$PROJECT_DIR$/app/Context/ShapeContext/Contracts/ShapeInterface.php" />
+        <option value="$PROJECT_DIR$/app/Context/ShapeContext/Entities/Disc.php" />
+        <option value="$PROJECT_DIR$/app/Context/ShapeContext/Entities/Rectangle.php" />
+        <option value="$PROJECT_DIR$/app/Context/ShapeContext/Entities/Triangle.php" />
+        <option value="$PROJECT_DIR$/app/Context/ShapeContext/ShapeDataValidator.php" />
+        <option value="$PROJECT_DIR$/app/Context/ShapeContext/Contracts/RequestInterface.php" />
+        <option value="$PROJECT_DIR$/app/Context/ShapeContext/UseCase/CreateShape/CreateShapeRequest.php" />
+        <option value="$PROJECT_DIR$/app/Http/Requests/UpdateShapeFormRequest.php" />
+        <option value="$PROJECT_DIR$/app/Context/ShapeContext/Contracts/ShapeRepositoryInterface.php" />
+        <option value="$PROJECT_DIR$/app/Context/ShapeContext/Repositories/ShapeRepository.php" />
+        <option value="$PROJECT_DIR$/app/Context/ShapeContext/UseCase/DeleteShape/DeleteShapeRequest.php" />
+        <option value="$PROJECT_DIR$/app/Context/ShapeContext/UseCase/UpdateShape/UpdateShapeRequest.php" />
+        <option value="$PROJECT_DIR$/app/Context/ShapeContext/UseCase/ShowShape/ShowShapeRequest.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/ShapeController.php" />
+        <option value="$PROJECT_DIR$/app/Context/ShapeContext/UseCase/UpdateShape/UpdateShapeResponse.php" />
+        <option value="$PROJECT_DIR$/app/Context/ShapeContext/UseCase/ShowShape/ShowShapeResponse.php" />
+        <option value="$PROJECT_DIR$/app/Context/ShapeContext/UseCase/DeleteShape/DeleteShapeResponse.php" />
+        <option value="$PROJECT_DIR$/app/Context/ShapeContext/UseCase/CreateShape/CreateShapeResponse.php" />
+        <option value="$PROJECT_DIR$/app/Context/ShapeContext/Contracts/UseCaseInterface.php" />
+        <option value="$PROJECT_DIR$/app/Context/ShapeContext/Contracts/ResponseInterface.php" />
+        <option value="$PROJECT_DIR$/app/Context/ShapeContext/Contracts/AbstractResponse.php" />
+        <option value="$PROJECT_DIR$/app/Context/ShapeContext/UseCase/CreateShape/CreateShapeUseCase.php" />
+        <option value="$PROJECT_DIR$/app/Context/ShapeContext/UseCase/DeleteShape/DeleteShapeUseCase.php" />
+        <option value="$PROJECT_DIR$/app/Context/ShapeContext/UseCase/ShowShape/ShowShapeUseCase.php" />
+        <option value="$PROJECT_DIR$/app/Context/ShapeContext/UseCase/UpdateShape/UpdateShapeUseCase.php" />
+        <option value="$PROJECT_DIR$/.env.example" />
+        <option value="$PROJECT_DIR$/app/Providers/EventServiceProvider.php" />
       </list>
     </option>
   </component>
@@ -263,13 +317,14 @@
     <option name="width" value="1016" />
     <option name="height" value="544" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -309,6 +364,38 @@
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="Context" type="462c0819:PsiDirectoryNode" />
               <item name="ShapeContext" type="462c0819:PsiDirectoryNode" />
+              <item name="Exceptions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ShapeApi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ShapeApi" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Context" type="462c0819:PsiDirectoryNode" />
+              <item name="ShapeContext" type="462c0819:PsiDirectoryNode" />
+              <item name="Factories" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ShapeApi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ShapeApi" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Context" type="462c0819:PsiDirectoryNode" />
+              <item name="ShapeContext" type="462c0819:PsiDirectoryNode" />
+              <item name="Listeners" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ShapeApi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ShapeApi" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Context" type="462c0819:PsiDirectoryNode" />
+              <item name="ShapeContext" type="462c0819:PsiDirectoryNode" />
+              <item name="Repositories" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ShapeApi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ShapeApi" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Context" type="462c0819:PsiDirectoryNode" />
+              <item name="ShapeContext" type="462c0819:PsiDirectoryNode" />
               <item name="UseCase" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -319,6 +406,33 @@
               <item name="ShapeContext" type="462c0819:PsiDirectoryNode" />
               <item name="UseCase" type="462c0819:PsiDirectoryNode" />
               <item name="CreateShape" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ShapeApi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ShapeApi" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Context" type="462c0819:PsiDirectoryNode" />
+              <item name="ShapeContext" type="462c0819:PsiDirectoryNode" />
+              <item name="UseCase" type="462c0819:PsiDirectoryNode" />
+              <item name="DeleteShape" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ShapeApi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ShapeApi" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Context" type="462c0819:PsiDirectoryNode" />
+              <item name="ShapeContext" type="462c0819:PsiDirectoryNode" />
+              <item name="UseCase" type="462c0819:PsiDirectoryNode" />
+              <item name="ShowShape" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ShapeApi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ShapeApi" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Context" type="462c0819:PsiDirectoryNode" />
+              <item name="ShapeContext" type="462c0819:PsiDirectoryNode" />
+              <item name="UseCase" type="462c0819:PsiDirectoryNode" />
+              <item name="UpdateShape" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ShapeApi" type="b2602c69:ProjectViewProjectNode" />
@@ -343,6 +457,12 @@
             <path>
               <item name="ShapeApi" type="b2602c69:ProjectViewProjectNode" />
               <item name="ShapeApi" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Providers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ShapeApi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ShapeApi" type="462c0819:PsiDirectoryNode" />
               <item name="database" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -355,6 +475,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -364,7 +485,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -416,12 +537,13 @@
       <workItem from="1558819930911" duration="555000" />
       <workItem from="1558895478923" duration="5409000" />
       <workItem from="1558903023158" duration="1869000" />
-      <workItem from="1558904924115" duration="3155000" />
+      <workItem from="1558904924115" duration="3252000" />
+      <workItem from="1558945023332" duration="15323000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14611000" />
+    <option name="totallyTimeSpent" value="30031000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -436,7 +558,7 @@
     <frame x="1366" y="-1" width="1920" height="1040" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14247599" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14407684" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -471,90 +593,25 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/app/Context/ShapeContext/UseCase/CreateShape/CreateShapeUseCase.php</url>
-          <line>22</line>
+          <line>46</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/laradock/workspace/xdebug.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laradock/php-fpm/xdebug.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laradock/php-fpm/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4420">
-          <caret line="170" column="24" selection-start-line="170" selection-start-column="24" selection-end-line="170" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laradock/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4264">
-          <caret line="164" column="25" selection-start-line="164" selection-start-column="25" selection-end-line="164" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/api.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/routes/channels.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/console.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Context/ShapeContext/UseCase/CreateShape/CreateShapeResponse.php">
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Schema/Blueprint.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="15184">
+          <caret line="590" column="20" selection-start-line="590" selection-start-column="20" selection-end-line="590" selection-end-column="20" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Requests/CreateShapeFormRequest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ShapeController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="658">
-          <caret line="38" column="22" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
-          <folding>
-            <element signature="e#208#276#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Context/ShapeContext/Repositories/ShapeRepository.php">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/User.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -566,66 +623,370 @@
     <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Auth/User.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
-          <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
           <folding>
             <element signature="e#46#82#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Schema/Blueprint.php">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="590" column="20" selection-start-line="590" selection-start-column="20" selection-end-line="590" selection-end-column="20" />
+        <state relative-caret-position="208">
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laradock/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="227" column="18" selection-start-line="227" selection-start-column="11" selection-end-line="227" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Providers/AppServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+          <folding>
+            <element signature="e#33#97#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Context/ShapeContext/Exceptions/InvalidShapeTypeException.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Context/ShapeContext/Exceptions/InvalidShapeDataException.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_05_27_083033_create_triangle_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="754">
+          <caret line="31" column="39" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_05_27_083204_create_rectangle_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="728">
+          <caret line="30" column="40" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_05_27_083133_create_disc_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="29" column="35" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2019_05_26_214659_create_shape_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="16" column="40" lean-forward="true" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Context/ShapeContext/UseCase/CreateShape/CreateShapeUseCase.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Context/ShapeContext/Contracts/ShapeInterface.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        <state relative-caret-position="546">
+          <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Context/ShapeContext/Factories/ShapeFactory.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="728">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="294">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="e#219#273#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Context/ShapeContext/Entities/Disc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="788">
+          <caret line="46" column="17" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
+          <folding>
+            <element signature="e#209#263#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Context/ShapeContext/Entities/Triangle.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="40" column="18" lean-forward="true" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
+          <folding>
+            <element signature="e#213#267#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Context/ShapeContext/UseCase/CreateShape/CreateShapeRequest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+        <state relative-caret-position="268">
+          <caret line="17" column="52" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Context/ShapeContext/Entities/Rectangle.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="656">
+          <caret line="47" column="17" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
+          <folding>
+            <element signature="e#214#268#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Context/ShapeContext/ShapeDataValidator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="701" column="23" selection-start-line="701" selection-start-column="23" selection-end-line="701" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Context/ShapeContext/Entities/Shape.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
-          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+          <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+          <folding>
+            <element signature="e#210#249#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/app/Http/Requests/ShapeFormRequest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="23" column="31" lean-forward="true" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Requests/UpdateShapeFormRequest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-96">
+          <caret line="6" column="48" lean-forward="true" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Context/ShapeContext/Repositories/ShapeRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="676">
+          <caret line="59" column="45" lean-forward="true" selection-start-line="59" selection-start-column="45" selection-end-line="59" selection-end-column="45" />
+          <folding>
+            <element signature="e#224#278#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Context/ShapeContext/UseCase/ShowShape/ShowShapeRequest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="658">
+          <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+          <folding>
+            <element signature="e#231#287#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Context/ShapeContext/UseCase/DeleteShape/DeleteShapeRequest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="36" column="5" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="36" selection-end-column="5" />
+          <folding>
+            <element signature="e#235#291#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Context/ShapeContext/UseCase/UpdateShape/UpdateShapeRequest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-258">
+          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+          <folding>
+            <element signature="e#235#291#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Context/ShapeContext/Contracts/ResponseInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="15" column="27" lean-forward="true" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Context/ShapeContext/UseCase/UpdateShape/UpdateShapeResponse.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="18" column="50" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
+          <folding>
+            <element signature="e#236#292#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Context/ShapeContext/UseCase/ShowShape/ShowShapeResponse.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Context/ShapeContext/UseCase/DeleteShape/DeleteShapeResponse.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Context/ShapeContext/UseCase/CreateShape/CreateShapeResponse.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ShapeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="100" column="35" selection-start-line="100" selection-start-column="35" selection-end-line="100" selection-end-column="35" />
+          <folding>
+            <element signature="e#208#272#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Context/ShapeContext/Contracts/ShapeInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Context/ShapeContext/Contracts/ShapeRepositoryInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="682">
+          <caret line="40" column="37" lean-forward="true" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
+          <folding>
+            <element signature="e#230#274#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Context/ShapeContext/Contracts/UseCaseInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Context/ShapeContext/Contracts/RequestInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Context/ShapeContext/Contracts/ResponseInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Context/ShapeContext/Contracts/AbstractResponse.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Context/ShapeContext/UseCase/CreateShape/CreateShapeUseCase.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Context/ShapeContext/UseCase/DeleteShape/DeleteShapeUseCase.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Context/ShapeContext/UseCase/ShowShape/ShowShapeUseCase.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Context/ShapeContext/UseCase/UpdateShape/UpdateShapeUseCase.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-408">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" selection-start-line="9" selection-end-line="12" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env.example">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
-          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Auth/Listeners/SendEmailVerificationNotification.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Auth/Events/Registered.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Context/ShapeContext/Events/ShapeCreated.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Context/ShapeContext/Listeners/CalculateArea.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Providers/EventServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#33#82#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

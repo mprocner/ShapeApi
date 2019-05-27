@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 /**
- * File: ResponseInterface.php
+ * File: AbstractResponse.php
  *
  * @author Mateusz Procner<mateusz.procner@gmail.com>
  * @copyright Copyright (C) 2019 Mateusz Procner
@@ -9,11 +9,41 @@ declare(strict_types=1);
 
 namespace App\Context\ShapeContext\Contracts;
 
-/**
- * Interface ResponseInterface
- * @package App\Context\ShapeContext\Contracts
- */
-interface ResponseInterface
+abstract class AbstractResponse
 {
+    /**
+     * @var string
+     */
+    private $message;
+    /**
+     * @var array
+     */
+    private $data;
 
+    /**
+     * ShowShapeResponse constructor.
+     * @param string $message
+     * @param array $data
+     */
+    public function __construct(string $message = '', array $data = [])
+    {
+        $this->message = $message;
+        $this->data = $data;
+    }
+
+    /**
+     * @return string
+     */
+    public function getMessage(): string
+    {
+        return $this->message;
+    }
+
+    /**
+     * @return array
+     */
+    public function getData(): array
+    {
+        return $this->data;
+    }
 }

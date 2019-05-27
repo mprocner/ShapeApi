@@ -13,7 +13,7 @@ class CreateDiscTable extends Migration
      */
     public function up()
     {
-        Schema::create('disc', function (Blueprint $table) {
+        Schema::create('discs', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->float('r');
             $table->timestamps();
@@ -27,6 +27,6 @@ class CreateDiscTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('disc');
+        Schema::dropIfExists('discs');
     }
 }

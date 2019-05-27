@@ -13,7 +13,7 @@ class CreateTriangleTable extends Migration
      */
     public function up()
     {
-        Schema::create('triangle', function (Blueprint $table) {
+        Schema::create('triangles', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->float('a');
             $table->float('b');
@@ -29,6 +29,6 @@ class CreateTriangleTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('triangle');
+        Schema::dropIfExists('triangles');
     }
 }

@@ -9,11 +9,13 @@ declare(strict_types=1);
 
 namespace App\Context\ShapeContext\UseCase\CreateShape;
 
+use App\Context\ShapeContext\Contracts\RequestInterface;
+
 /**
  * Class CreateShapeRequest
  * @package App\Context\ShapeContext\UseCase\CreateShape
  */
-class CreateShapeRequest
+class CreateShapeRequest implements RequestInterface
 {
     /**
      * @var string
@@ -47,26 +49,10 @@ class CreateShapeRequest
     }
 
     /**
-     * @param array $data
-     */
-    public function setData(array $data): void
-    {
-        $this->data = $data;
-    }
-
-    /**
      * @return string
      */
     public function getType(): string
     {
         return $this->type;
-    }
-
-    /**
-     * @param string $type
-     */
-    public function setType(string $type): void
-    {
-        $this->type = $type;
     }
 }

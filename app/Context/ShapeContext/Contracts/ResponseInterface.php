@@ -13,7 +13,7 @@ namespace App\Context\ShapeContext\Contracts;
  * Interface ResponseInterface
  * @package App\Context\ShapeContext\Contracts
  */
-interface AbstractResponse
+interface ResponseInterface
 {
 
 }

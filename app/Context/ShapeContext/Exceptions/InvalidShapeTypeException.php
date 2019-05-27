@@ -9,7 +9,8 @@ declare(strict_types=1);
 
 namespace App\Context\ShapeContext\Exceptions;
 
-class InvalidShapeTypeException
-{
+use Exception;
 
+class InvalidShapeTypeException extends Exception
+{
 }

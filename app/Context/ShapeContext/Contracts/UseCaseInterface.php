@@ -9,8 +9,11 @@ declare(strict_types=1);
 
 namespace App\Context\ShapeContext\Contracts;
 
-
 interface UseCaseInterface
 {
-
+    /**
+     * @param RequestInterface $request
+     * @return AbstractResponse
+     */
+    public function execute(RequestInterface $request): AbstractResponse;
 }

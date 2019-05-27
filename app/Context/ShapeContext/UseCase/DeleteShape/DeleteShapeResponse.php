@@ -9,7 +9,9 @@ declare(strict_types=1);
 
 namespace App\Context\ShapeContext\UseCase\DeleteShape;
 
-class DeleteShapeResponse
+use App\Context\ShapeContext\Contracts\AbstractResponse;
+
+class DeleteShapeResponse extends AbstractResponse
 {
 
 }
