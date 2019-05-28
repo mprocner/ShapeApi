@@ -6,7 +6,7 @@ declare(strict_types=1);
  * @author Mateusz Procner<mateusz.procner@gmail.com>
  * @copyright Copyright (C) 2019 Mateusz Procner
  */
-namespace App\Context\ShapeContext;
+namespace App\Context\ShapeContext\Validators;
 
 use App\Context\ShapeContext\Exceptions\InvalidShapeDataException;
 

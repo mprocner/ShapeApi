@@ -12,6 +12,7 @@ use App\Context\ShapeContext\Contracts\AbstractResponse;
 use App\Context\ShapeContext\Contracts\RequestInterface;
 use App\Context\ShapeContext\Contracts\ShapeRepositoryInterface;
 use App\Context\ShapeContext\Contracts\UseCaseInterface;
+use App\Context\ShapeContext\Events\ShapeCreated;
 use App\Context\ShapeContext\Exceptions\InvalidShapeDataException;
 use App\Context\ShapeContext\Exceptions\InvalidShapeTypeException;
 use App\Context\ShapeContext\Factories\ShapeFactory;
@@ -48,6 +49,7 @@ class CreateShapeUseCase implements UseCaseInterface
             if ($figure->validateData($request->getData())) {
                 $figure->assignData($request->getData());
                 $this->shapeRepository->createShape($figure);
+                event(new ShapeCreated($figure));
                 return new CreateShapeResponse('Shape created successfully');
             }
         } catch (InvalidShapeTypeException $e) {

@@ -3,6 +3,7 @@
 namespace App\Providers;
 
 use App\Context\ShapeContext\Events\ShapeCreated;
+use App\Context\ShapeContext\Listeners\CalculateArea;
 use Illuminate\Support\Facades\Event;
 use Illuminate\Auth\Events\Registered;
 use Illuminate\Auth\Listeners\SendEmailVerificationNotification;
@@ -20,7 +21,7 @@ class EventServiceProvider extends ServiceProvider
             SendEmailVerificationNotification::class,
         ],
         ShapeCreated::class => [
-
+            CalculateArea::class
         ]
     ];
 

@@ -9,7 +9,37 @@ declare(strict_types=1);
 
 namespace App\Context\ShapeContext\Events;
 
+use App\Context\ShapeContext\Contracts\ShapeInterface;
+use Illuminate\Queue\SerializesModels;
+
+/**
+ * Class ShapeCreated
+ * @package App\Context\ShapeContext\Events
+ */
 class ShapeCreated
 {
+    use SerializesModels;
+
+    /**
+     * @var ShapeInterface
+     */
+    private $figure;
+
+    /**
+     * ShapeCreated constructor.
+     * @param ShapeInterface $figure
+     */
+    public function __construct(ShapeInterface $figure)
+    {
+        $this->figure = $figure;
+    }
+
+    /**
+     * @return ShapeInterface
+     */
+    public function getFigure(): ShapeInterface
+    {
+        return $this->figure;
+    }
 
 }

@@ -9,7 +9,7 @@ declare(strict_types=1);
 namespace App\Context\ShapeContext\Entities;
 
 use App\Context\ShapeContext\Contracts\ShapeInterface;
-use App\Context\ShapeContext\ShapeDataValidator;
+use App\Context\ShapeContext\Validators\ShapeDataValidator;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\MorphOne;
 

@@ -36,4 +36,9 @@ interface ShapeInterface
      * @return int
      */
     public function getDataCount(): int;
+
+    /**
+     * @return ShapeCalculatorInterface
+     */
+    public function getCalculator(): ShapeCalculatorInterface;
 }

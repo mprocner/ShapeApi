@@ -8,8 +8,9 @@ declare(strict_types=1);
  */
 namespace App\Context\ShapeContext\Entities;
 
+use App\Context\ShapeContext\Contracts\ShapeCalculatorInterface;
 use App\Context\ShapeContext\Contracts\ShapeInterface;
-use App\Context\ShapeContext\ShapeDataValidator;
+use App\Context\ShapeContext\Validators\ShapeDataValidator;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\MorphOne;
 
@@ -46,5 +47,13 @@ class Rectangle extends Model implements ShapeInterface
     public function getDataCount(): int
     {
         return 2;
+    }
+
+    /**
+     * @return ShapeCalculatorInterface
+     */
+    public function getCalculator(): ShapeCalculatorInterface
+    {
+        // TODO: Implement getCalculator() method.
     }
 }

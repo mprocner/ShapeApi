@@ -9,7 +9,30 @@ declare(strict_types=1);
 
 namespace App\Context\ShapeContext\Listeners;
 
-class CalculateArea
-{
+use App\Context\ShapeContext\Events\ShapeCreated;
+use App\Context\ShapeContext\Jobs\CalculateAreaJob;
+use Illuminate\Contracts\Queue\ShouldQueue;
 
+/**
+ * Class CalculateArea
+ * @package App\Context\ShapeContext\Listeners
+ */
+class CalculateArea implements ShouldQueue
+{
+    /**
+     * CalculateArea constructor.
+     */
+    public function __construct()
+    {
+    }
+
+    /**
+     * @param ShapeCreated $event
+     * @return void
+     */
+    public function handle(ShapeCreated $event): void
+    {
+        var_dump('asdf');
+        //calculate area
+    }
 }
